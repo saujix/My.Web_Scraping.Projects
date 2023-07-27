@@ -1,14 +1,19 @@
+
 from bs4 import BeautifulSoup
 import requests
 import time
 
+print()
 
+g=0
 query=str(input("What are you looking up for? \n :"))
 query1=query.replace(' ','+')
 i=int(input("Enter the page limit \n :"))
+bool=str(input("Looking for a specific word(y,n)?\n :"))
+filter = str(input("Enter the specific Keyword \n :"))
+
 
 for j in range(1,i+1):
-    g=0
     url=requests.get(f"https://www.xhamster20.desi/search/{query1}/?page={j}")
 
 
@@ -26,8 +31,29 @@ for j in range(1,i+1):
         likes=soup2.find('div',class_='rb-new__info')
 
 
+        if bool == "y":
+            if filter.lower() in a.text.lower():
+                print(f"Title: {a.text} \nlink: {link}\nArtist: {b.text} \nViews: {c.text} \nLikes: {likes.text}")
+                print()
+                print()
+                g=g+1
+            else:
+                pass
 
-        print(f"Title: {a.text} \nlink: {link}\nArtist: {b.text} \nViews: {c.text} \nLikes: {likes.text}")
-        print()
-        print()
-        time.sleep(2)
+
+
+        else:
+            if "M" in c.text:
+                print(f"Title: {a.text} \nlink: {link}\nArtist: {b.text} \nViews: {c.text} \nLikes: {likes.text}")
+                print()
+                print()
+
+
+    if g==0:
+        print("Result Not Found!")
+        break
+    else:
+        print(f"{g} Results Found!")
+        break
+
+
