@@ -16,7 +16,7 @@ elif bool=="n":
     pass
 
 for j in range(1,i+1):
-    url=requests.get(f"https://www.xhamster20.desi/search/{query1}/?page={j}")
+    url=requests.get(f"https://www.xhamster.desi/search/{query1}/?page={j}")
 
 
 
