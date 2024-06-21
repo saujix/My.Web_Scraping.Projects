@@ -18,8 +18,10 @@ My work might dissapoint you as i am one to my parents.
 ## Disclaimer
 
 This script is for educational purposes only. Use responsibly and ensure you have the rights to download the content.
-                              (Have a nice Day)
+<pre>
+                             (Have a nice Day)
                               ●
                             ○
                           .
                         🪲
+</pre>
