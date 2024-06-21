@@ -13,7 +13,7 @@ I am dumb tbh, look out for any errors, ping me alright.
 - Patience (59%)
 
 ## Notes
-My work might dissapoint you as i am one to my parents.
+My work might disappoint you as i am one to my parents.
 
 ## Disclaimer
 
