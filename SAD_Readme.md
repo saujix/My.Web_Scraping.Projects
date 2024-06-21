@@ -20,7 +20,7 @@ A Python script for downloading Spotify albums efficiently, ensuring progress is
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/spotify-album-downloader.git
+   git clone https://github.com/saujix/My.Web_Scraping.Projects.git
    ```
 2. Install dependencies:
    ```bash
