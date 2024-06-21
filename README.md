@@ -1,51 +1,25 @@
-<detail>
-<summary>Spotify Album Downloader</summary>
-#Spotify Album Downloader
-A Python script for downloading Spotify albums efficiently, ensuring progress is saved to prevent data loss.
+# General Info
+This script is purely python based hence 0.000000001 percent slower compared to its alts.
+I am dumb tbh, look out for any errors, ping me alright.
 
-## Features
-
-- Downloads multiple albums with progress saved in `save_file.json`.
-- Utilizes Selenium for web automation and BeautifulSoup for parsing.
-- Supports retries if download issues occur.
 
 ## Requirements
 
-- Python 3.x
-- Selenium
-- BeautifulSoup
-- ChromeDriver
-- Requests
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/saujix/My.Web_Scraping.Projects/spotify-album-downloader.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install selenium beautifulsoup4 requests
-   ```
-
-3. Ensure ChromeDriver is installed and added to PATH.
-
-## Usage
-
-1. Run the script:
-   ```bash
-   python spotify_album_downloader.py
-   ```
-
-2. Follow the prompts to enter Spotify album links and specify the storage folder.
+- Python 3.x (15%)
+- Selenium(8%)
+- BeautifulSoup (7%)
+- ChromeDriver (5%)
+- Requests (6%)
+- Patience (59%)
 
 ## Notes
-
-- If the script fails during download, rerun it. The progress is saved in `save_file.json`.
-- For single album downloads, enter the link directly when prompted.
+My work might dissapoint you as i am one to my parents.
 
 ## Disclaimer
 
 This script is for educational purposes only. Use responsibly and ensure you have the rights to download the content.
-
-</detail>
+                              (Have a nice Day)
+                              ●
+                            ○
+                          .
+                        🪲
