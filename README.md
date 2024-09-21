@@ -1,6 +1,5 @@
 # General Info
 This script is purely python based hence 0.000000001 percent slower compared to its alts.
-I am dumb tbh, look out for any errors, ping me alright.
 
 
 ## Requirements
